@@ -1,0 +1,189 @@
+.main{
+    /*background-color: rgba(36, 5, 5, 0.466);*/
+    background: #222;
+    color: white;
+    margin: auto;
+    padding: 0px;
+}
+.box-1{
+    background: linear-gradient(90deg, #c02d28, #e66225);
+    padding: 0;
+    border: 10px;
+    
+}
+.box-1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    padding: 10px;
+    margin: 0;
+   
+}
+.header{
+    background: rgba(0,0,0,.7);
+}
+.box-2{
+    position: relative;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+.my-list ul{
+    list-style: none;
+    display: flex;
+    padding-bottom: 0px;
+    list-style-position: inside;
+    overflow: hidden;
+    
+}
+
+.my-list li{
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    display: inline;
+}
+a:hover{
+        
+        color: wheat;
+}
+a{
+    color: lightpink;
+    text-decoration: none;
+    
+    
+}
+.box-3{
+    padding:40px;
+    margin: auto;
+}
+.form-group input[type="text"], input[type="password"]{
+    padding: 10px;
+    display: block;
+}
+.box-3 label{
+    display: block;
+}
+.box-3 input[type="text"], input[type="password"]{
+    padding: 8px;
+    width: 500px;
+}
+.form-group{
+    padding-left: 30%;
+}
+.box-3 input[type="submit"]{
+border-radius: 70px;
+width: 80px;
+height: 50px;
+border-color: red;
+background-color: red;
+color: beige;
+margin: 0;
+padding: 0;
+
+}
+.my-list li:last-child{
+    border-radius: 70px;
+    width: 80px;
+    height: 20px;
+    border-color: red;
+    background-color: red;
+    color: beige;
+}
+.first{
+    color: red;
+    text-decoration: underline;
+}
+.bottom{
+    background-color: #111;
+    color: red;
+    padding: 30px
+}
+.bottom h1{
+    position: absolute;
+    bottom: 10px;
+    padding: 30px;
+}
+.cute li{
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+.cute ul{
+    list-style: none;
+    display: flex;
+    list-style-position: inside;
+    overflow: hidden;
+
+}
+body{
+    margin: 0;
+}
+.diagonal{
+    height: 24px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.address{
+    display: flex;
+    
+    text-align: right; 
+    padding-bottom: 10px;
+    color: white;
+   
+}
+.made{
+    text-align: left;
+    width: 50%
+}
+.contact{
+    width: 50%
+}
+.address a{
+    color: red;
+}
+.address p{
+    color: white;
+}
+.pics p{
+    color: white;
+}
+.center{
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    width: 50%;
+    padding-left: 40%;
+
+}
+.center img{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    display: block;
+    
+}
+.bottom img{
+    width: 30%;
+}
+#ios{
+    padding-top: 11px;
+    position: relative;
+    text-align: center;
+    width: 70%;
+    display: block;
+}
+
+.cute{
+    position: relative;
+    position: absolute;
+    bottom: 35px;
+    right: 10px;
+}
+
+.pics img{
+    width: 20px;
+    padding-top: 200px;
+}
